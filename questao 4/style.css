@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.miniaturas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.miniaturas img {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.miniaturas img:hover {
+    transform: scale(1.1);
+}
+
+.imagem-destaque img {
+    width: 300px;
+    height: auto;
+}
